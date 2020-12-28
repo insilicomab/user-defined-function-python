@@ -1,0 +1,9 @@
+# library
+import cv2
+import matplotlib.pyplot as plt
+
+# function definition
+def display(img,cmap=None):
+    fig = plt.figure(figsize=(10,8))
+    ax = fig.add_subplot(111)
+    ax.imshow(img,cmap=cmap)
