@@ -1,3 +1,7 @@
+'''
+引数INPATHに解凍したいzipのパス、引数OUTPATHに解凍を行いたい場所のパスを指定することで該当zipの解凍を行うことができる
+'''
+
 # library
 import zipfile
 
