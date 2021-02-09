@@ -1,0 +1,7 @@
+# library
+import zipfile
+
+# definition
+def unzip_dataset(INPATH,OUTPATH):
+    with zipfile.ZipFile(INPATH) as zf:
+        zf.extractall(OUTPATH)
